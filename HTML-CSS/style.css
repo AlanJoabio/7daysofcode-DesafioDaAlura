@@ -59,6 +59,39 @@ body {
     background-color: #101828;
 }
 
+.sobrenos__container, .vagas__container, 
+.testimonial, footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+.sobrenos__container{
+    margin: 6rem auto;
+}
+
+.subtitulo{
+    font-weight: 600;
+    line-height: 1.5rem;
+    color: var(--main-color);
+    margin-bottom: 1.5rem;
+}
+
+.descricao{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: var(--text-color);
+}
+
+.sobrenos__titulo{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 4rem;
+    margin-bottom: 2.25rem;
+    letter-spacing: -2%;
+}
 
 /*talentos*/
 
